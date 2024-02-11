@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minha Página Web</title>
+>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+  <style>
+   
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <a class="navbar-brand" href="#">Minha Página</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Início</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="container mt-5">
+      <h2>Seção 1</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempus nisl in risus pellentesque, eu efficitur elit congue.</p>
+    </section>
+    <section class="container mt-5">
+      <h2>Seção 2</h2>
+      <p>Nulla facilisi. Donec volutpat, libero id bibendum lobortis, odio sem vestibulum arcu, eu venenatis ex felis et elit.</p>
+    </section>
+    <section class="container mt-5">
+      <h2>Seção 3</h2>
+      <p>Vivamus sed tortor fermentum, vestibulum felis at, posuere justo. Fusce at neque tristique, fermentum elit at, bibendum ante.</p>
+    </section>
+  </main>
+  <footer class="bg-dark text-light mt-5">
+    <div class="container py-3">
+      <p class="text-center">&copy; <span id="year"></span> Minha Página Web</p>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+ 
+<script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html
