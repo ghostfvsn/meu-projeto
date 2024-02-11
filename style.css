@@ -1,0 +1,54 @@
+.batman {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 20px; /* Ajuste conforme necessário */
+}
+
+.batman:before,
+.batman:after {
+    content: '';
+    position: absolute;
+    background: yellow;
+}
+
+.batman:before {
+    width: 80px;
+    height: 120px;
+    top: 20px;
+    left: 40px;
+    border-radius: 40px;
+}
+
+.batman:after {
+    width: 140px;
+    height: 30px;
+    bottom: 50px;
+    left: 30px;
+    border-radius: 15px;
+}
+
+.batman:after,
+.batman:before {
+    transform: rotate(-20deg);
+}
+
+.batman .ears {
+    background-color: yellow;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    border-radius: 50%;
+    top: -20px;
+}
+
+.batman .ears.left {
+    left: -10px;
+}
+
+.batman .ears.right {
+    right: -10px;
+}
